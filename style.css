@@ -1,0 +1,130 @@
+/* Geral */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #d4e3f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.logo h1 {
+  font-size: 2rem;
+  color: #2b303e;
+
+}
+.pacifico {
+        font-family: 'Pacifico', cursive;
+      }
+
+.cookie {
+        font-family: 'Cookie', cursive;
+      }
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 1rem;
+  
+}
+
+nav a {
+  display: block;
+  padding: 1rem;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+/*nav a:hover {
+  background-color: #eee;
+} */
+
+.slider {
+  margin-top: 80px;
+  /*background-color:  #009788;*/
+   color: black;
+}
+
+.carousel-item img {
+  height: 350px;
+  object-fit: cover;
+}
+/* .button bc {
+  text-align: center
+  
+} */
+
+.container-sessoes-index {
+    text-align: center
+
+}
+/* conseguiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii */
+.rounded-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  background-color: #2b303e;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.rounded-table td {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*botao baixo cardio*/ 
+.btn {
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 20px;
+  color: #2b303e;
+  border: 2px solid ;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: #2b303e;
+  color: #fff;
+}
+/* chat */ 
+.chatbot {
+  border-radius: 20px;
+}
